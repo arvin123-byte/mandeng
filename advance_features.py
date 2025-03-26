@@ -7,9 +7,9 @@ def generate_timestamps():
             yield datetime.now()
             time.sleep(1)
 
-# Lambda function
+
 square = lambda x: x * x
 
-# Using del
+
 my_list = [1, 2, 3]
-del my_list[1]  # Removes second element
+del my_list[1]  

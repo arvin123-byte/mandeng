@@ -14,7 +14,7 @@ class Calculator:
             return False
             
     def compare_with(self, other):
-        # Using 'is' operator
+        
         if other is None:
-            pass  # Using 'pass' keyword
+            pass  
         return self.value > other
